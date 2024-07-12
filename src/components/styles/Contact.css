@@ -1,0 +1,226 @@
+
+.contact_box {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 98.75vw; 
+} 
+
+.title_contact {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    height: 130px;
+    width: 400px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+} 
+
+.linea_contact {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 460px;
+    margin-left: 445px;
+}
+
+.phrase_contact {
+    background-color: rgba(228, 88, 88, 0);
+    height: 80px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.correo_enlace {
+    background-color: rgba(228, 88, 88, 0);
+    text-decoration: none;
+    height: 80px;
+    width: 400px;
+    margin-left: 230px;
+    margin-top: 40px;
+    font-size: 25px;
+    color:  #272727;
+}
+
+.correo_enlace:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.phrase_contact2 {
+    background-color: rgba(228, 88, 88, 0);
+    height: 40px;
+    width: 400px;
+    margin-left: 800px;
+    margin-top: -100px;
+    font-size: 30px;
+}
+
+.link_enlace {
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    height: 80px;
+    width: 400px;
+    margin-left: 970px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: #272727;
+}
+
+.link_enlace:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.linea_contact2 {
+    background-color: rgb(8, 32, 187);
+    border: none;
+    height: 5px;
+    width: 300px;
+    margin-left: 230px;
+    margin-top: 24px;
+}
+
+.linea_contact3 {
+    background-color: rgb(8, 32, 187);
+    border: none;
+    height: 5px;
+    width: 56px;
+    margin-left: 969px;
+    margin-top: -35px;
+}
+
+.linea_contact4 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 3px;
+    width: 1324px;
+    margin-top: 180px;
+   
+} 
+
+/*
+.box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 350px;
+    width: 1340px;
+} 
+
+.box_information {
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 500px;
+} 
+
+.titulito {
+    background-color: rgb(255, 255, 255);
+    color: rgba(147, 92, 32, 0.863);
+    height: 25px;
+    width: 200px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.textito {
+    background-color: rgb(11, 8, 8);
+
+    width: 400px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+} 
+
+.formulario {
+    background-color: rgb(0, 0, 0);
+    height: 260px;
+    width: 900px;
+    margin-left: 33px;
+} 
+
+.formOne {
+    background-color: rgba(147, 91, 32, 0.464);
+    color: white;
+    height: 40px;
+     width: 40%;
+     border-radius: 20px;
+     border: 0;
+     padding: 10px 10px;
+     font-size: 18px;
+     margin-top: 20px;
+     margin-left: 50px;
+}
+
+.formTwo {
+    background-color: rgba(147, 91, 32, 0.464);
+    color: rgb(255, 255, 255);
+    width: 85.5%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.formTree {
+    background-color:rgba(147, 91, 32, 0.464);
+    color: rgb(255, 255, 255);
+    width: 85.5%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+ 
+.btn {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff0000; 
+    margin-top: 15px;
+    margin-left: 600px;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    transform: scale(0.95);
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+}
+
+      <div className='box'> 
+        <div className='box_information'>
+          <p className='titulito'>Phone</p>
+          <p className='textito'>123456789</p>
+          <p className='titulito'>Adress:</p>
+          <p className='textito'>hola4</p>
+          <p className='titulito'>Email:</p>
+          <p className='textito'>hola6@gmail.com</p>
+        </div>
+        <div>
+          <form className='formulario'>
+            <input className='formOne' type="text" name="name" placeholder="Ingresa tu nombre" />
+            <input className='formOne' type="text" name="name" placeholder="Ingresa tu correo" />
+            <br />
+            <input className='formTwo' type="text" name="name" placeholder="Subjet" />
+            <br />
+            <input className='formTree' type="text" name="name" placeholder="Menssage" />
+            <br />
+            <input className='btn' type="Submit" value="Send Menssage" />
+          </form>
+        </div>
+      </div>
+*/
+
+

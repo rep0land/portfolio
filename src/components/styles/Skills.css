@@ -1,0 +1,181 @@
+
+.skills_box {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 98.75vw; 
+} 
+
+.logoreact {
+    display: block;
+    height: 90px;
+    width: 90px;
+    margin-left: 1020px;
+    margin-top: -390px;
+    transition: 1s;
+}
+
+.logoreact:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logocss {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-left: 1080px;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+.logocss:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logohtml {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-left: 1080px;
+    margin-top: 50px;
+    transition: 1s;
+}
+
+.logohtml:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logojs {
+    display: block;
+    height: 65px;
+    width: 65px;
+    margin-left: 1040px;
+    margin-top: 60px;
+    transition: 1s;
+}
+
+.logojs:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logogit {
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin-left: 960px;
+    margin-top: -265px;
+    transition: 1s;
+}
+
+.logogit:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logopostgre {
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin-left: 880px;
+    margin-top: -180px;
+    transition: 1s;
+}
+
+.logopostgre:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logopostman {
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin-left: 880px;
+    margin-top: 150px;
+    transition: 1s;
+}
+
+.logopostman:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+}
+
+.logonode {
+    display: block;
+    height: 120px;
+    width: 120px;
+    margin-left: 770px;
+    margin-top: -205px;
+    transition: 1s;
+}
+
+.logonode:hover {
+    cursor: pointer;
+    transform: scale(1.95);
+} 
+
+.title_skills {
+    background-color: rgba(254, 51, 51, 0);
+    height: 160px;
+    width: 450px; 
+    font-size: 150px;
+    margin-left: 110px;
+    margin-top: 40px;
+} 
+
+.linea_skills {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 480px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.text_skills {
+    background-color: rgb(177, 0, 53);
+    height: 65px;
+    width: 400px;
+    margin-left: 85px;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.text_skills2 {
+    background-color: rgba(206, 105, 135, 0.694);
+    height: 120px;
+    width: 400px;
+    margin-left: 85px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.scroll_skills {
+    background-color: #272727;
+    height: 420px;
+    width: 25px;
+    margin-left: 1285px;
+    margin-top: -272px;
+}
+
+.scroll_skillsone {
+    background-color: rgba(182, 74, 228, 0);
+    height: 140px;
+    width: 25px;
+    margin-left: 1285px;
+    margin-top: -420px;
+}
+
+.scroll_skillstwo {
+    background-color: rgb(177, 0, 53);
+    height: 140px;
+    width: 25px;
+    margin-left: 1285px;
+}
+
+
